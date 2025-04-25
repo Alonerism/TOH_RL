@@ -1,2 +1,2 @@
 from gymnasium.envs.registration import register
-from gym_hanoi.envs.hanoi_env import HanoiGoalEnv
+from gym_hanoi.envs.HER_hanoiEnv import HanoiGoalEnv

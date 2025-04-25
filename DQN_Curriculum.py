@@ -3,7 +3,7 @@ import time
 from gymnasium.wrappers import RecordEpisodeStatistics as Monitor
 from stable_baselines3 import DQN
 from stable_baselines3.common.vec_env import DummyVecEnv
-from gym_hanoi.envs.hanoi_env11 import HanoiEnv
+from gym_hanoi.envs.S_hanoiEnv import HanoiEnv
 
 # === Curriculum Parameter ===
 disk_count = 4  # ✅ Change manually for each stage (2 to 6)

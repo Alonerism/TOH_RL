@@ -1,6 +1,6 @@
 import gymnasium as gym
 import time
-from gym_hanoi.envs.hanoi_env import HanoiGoalEnv
+from gym_hanoi.envs.HER_hanoiEnv import HanoiGoalEnv
 from stable_baselines3 import DQN
 from stable_baselines3.her.her_replay_buffer import HerReplayBuffer
 from stable_baselines3.common.env_util import make_vec_env
